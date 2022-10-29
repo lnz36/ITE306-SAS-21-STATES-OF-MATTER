@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+h1{
+	text-align: center; no background-repeat: no-repeat;
+	color: black;
+	padding: 20px;
+}
+nav{
+	background-color:deepskyblue;
+	display:grid;
+	place-items: center;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul a{
+	display:  inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.2s easee-in;
+}
+nav ul a:hover{
+	background_color: brown;
+	color: white;
+}
+.items{
+	display: grid;
+	}
+.item img{
+	width: 300px;
+	height: 300px;
+	cursor:  pointer;
+	transition:  0.2s ease;
+}
+.item img:hover{
+	transform:  scale(1.04);
+}
+.item button{
+	padding:  5px 30px;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+	.button1 button{
+		color: green;
+	}
+
+	
